@@ -1,0 +1,19 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+// importar archivos secundarios
+@import "utilidades/variables";
+@import "utilidades/mixin";
+@import"utilidades/extend";
+@import "contenedores/index";
+@import"contenedores/women";
+@import"contenedores/mens";
+@import"contenedores/kids";
+@import"contenedores/unete";
+@import"contenedores/sesion";
+
+
+

@@ -1,0 +1,11 @@
+/*estilos de formulario sesion*/
+body{
+    background-color: $color-fondo;
+}
+
+.eagle-formulario{
+    @extend %estilosEncabezadoFormularios;
+  }
+.formulario-sesion{
+  @extend %estilosFormularios;
+  }
