@@ -5,8 +5,8 @@
     box-sizing: border-box;
 }
 // importar archivos secundarios
-@import "utilidades/variables";
 @import "utilidades/mixin";
+@import "utilidades/variables";
 @import"utilidades/extend";
 @import "contenedores/index";
 @import"contenedores/women";

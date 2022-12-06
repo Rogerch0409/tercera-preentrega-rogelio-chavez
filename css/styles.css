@@ -103,7 +103,17 @@ footer {
 
 /* estilos del index */
 body {
-  background-color: white; }
+  background-color: white;
+  /*md*/ }
+  @media screen and (max-width: 1200px) {
+    body {
+      background-color: red; } }
+  @media screen and (max-width: 768px) {
+    body {
+      background-color: blue; } }
+  @media screen and (max-width: 576px) {
+    body {
+      background-color: yellow; } }
 
 header {
   background-color: black;
@@ -235,9 +245,6 @@ footer {
     color: gray; }
 
 /* estilos de women*/
-body {
-  background-color: white; }
-
 #women-portada img {
   border: 2px solid gray;
   box-shadow: 12px 12px 20px palevioletred; }
@@ -265,9 +272,6 @@ body {
   color: black; }
 
 /* estilos de mens*/
-body {
-  background-color: white; }
-
 .mens h1 {
   text-align: center;
   font-size: 50px;
@@ -302,9 +306,6 @@ body {
   color: black; }
 
 /* estilos kids */
-body {
-  background-color: white; }
-
 .kids {
   display: flex;
   justify-content: center;
@@ -343,9 +344,4 @@ body {
   color: black; }
 
 /*estilos de formulario unete*/
-body {
-  background-color: white; }
-
 /*estilos de formulario sesion*/
-body {
-  background-color: white; }

@@ -2,6 +2,18 @@
 
 body{
 background-color: $color-fondo;
+ /*md*/
+ @include desktop{
+    background-color: $color-fondo1;
+  }
+@include tablet{
+    background-color: $color-fondo2;
+  }
+
+@include mobile{
+    background-color: $color-fondo3;
+}
+  
 }
 header{
     @include header(black, sticky, 0, 2);
@@ -13,7 +25,7 @@ header{
 }
 }
   main{
-    @include flex;
+     @include flex;
     .imagen-promocion h1{
       @extend %estilosTitulos;
     }
@@ -127,4 +139,5 @@ footer{
     &:hover{
         color:gray;
     }
-}
+
+ }

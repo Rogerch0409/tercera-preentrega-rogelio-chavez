@@ -1,7 +1,5 @@
 /* estilos kids */
-body{
-  background-color: $color-fondo;
-}
+
 .kids{
     @include flex;
     justify-content:center;
